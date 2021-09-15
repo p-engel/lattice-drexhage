@@ -1,0 +1,9 @@
+name: drexhage
+channels:
+  - defaults
+dependencies:
+  - scipy
+  - matplotlib
+  - ipykernel
+  - pandas
+prefix: /Users/praizanyanwu/Documents/python/miniconda/envs/drexhage
