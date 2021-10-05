@@ -18,12 +18,12 @@ parser.add_argument(
 )
 parser.add_argument(
     '-sc', '--sphereoncuboid',
-    help='creates standard sphere on cuboid\
+    help='creates standard sphere on cuboid:\
         specify radius for sphere, the bounds of\
         the cartesian grid, and the offset of\
         the cuboid from the spere, all as input\
         args: xmin, ymin, zmin, xmax, ymax, zmax,\
-            xshift, yshift, zshift',
+            r, xshift, yshift, zshift',
     nargs='*',
     type=int
 )
