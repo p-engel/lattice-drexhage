@@ -2,6 +2,9 @@ import argparse
 import matplotlib.pyplot as plt
 import pandas as pd
 import sys
+import warnings
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 plt.rcParams.update({
     "text.usetex": True,
@@ -65,8 +68,7 @@ else:
     sys.exit()
 
 ax.scatter(a, b,
-	linestyle='dashed', linewidth=3,
-	color='tab:blue', label='scattering')
+	linestyle='dashed', linewidth=3, color='tab:blue')
 ax.set_xlabel(alabel)
 ax.set_ylabel(blabel)
 ax.set_title("shape file")
